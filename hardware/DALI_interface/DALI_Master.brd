@@ -74,6 +74,8 @@
 <wire x1="49.524" y1="0" x2="49.524" y2="28" width="0" layer="20"/>
 <wire x1="49.524" y1="28" x2="0" y2="28" width="0" layer="20"/>
 <wire x1="0" y1="28" x2="0" y2="0" width="0" layer="20"/>
+<text x="2.032" y="12.7" size="1.778" layer="1" font="vector" ratio="14">DALI</text>
+<text x="37.338" y="21.336" size="1.778" layer="1" font="vector" ratio="14" rot="R90">Bus</text>
 </plain>
 <libraries>
 <library name="con-lsta">
@@ -647,27 +649,21 @@ design rules under a new name.</description>
 <element name="R4" library="rcl" package="R0805" value="10k" x="23.114" y="3.302" smashed="yes" rot="R180"/>
 <element name="R6" library="rcl" package="R0805" value="1k" x="23.114" y="5.588" smashed="yes"/>
 <element name="R5" library="rcl" package="R0805" value="1k" x="14.732" y="9.906" smashed="yes" rot="R180"/>
-<element name="R7" library="rcl" package="R0805" value="" x="37.084" y="10.668" smashed="yes">
-<attribute name="VALUE" x="36.449" y="8.128" size="1.27" layer="27"/>
-</element>
+<element name="R7" library="rcl" package="R0805" value="470R" x="37.084" y="10.668" smashed="yes"/>
 <element name="R8" library="rcl" package="R1206" value="5R6" x="17.78" y="4.318" smashed="yes" rot="R90"/>
 <element name="R9" library="rcl" package="R1206" value="5R6" x="15.494" y="4.318" smashed="yes" rot="R90"/>
 <element name="C3" library="rcl" package="C0805" value="220n" x="7.112" y="5.842" smashed="yes" rot="R90"/>
 <element name="D1" library="diode" package="SOT23" value="BAT54S" x="12.192" y="6.858" smashed="yes" rot="R90"/>
-<element name="R10" library="rcl" package="R0805" value="" x="9.144" y="5.842" smashed="yes" rot="R90">
-<attribute name="VALUE" x="11.684" y="5.207" size="1.27" layer="27" rot="R90"/>
-</element>
+<element name="R10" library="rcl" package="R0805" value="1k" x="9.144" y="5.842" smashed="yes" rot="R90"/>
 <element name="C4" library="rcl" package="E2,5-6" value="100u" x="11.43" y="21.844" smashed="yes" rot="MR270"/>
-<element name="R11" library="rcl" package="R0805" value="" x="39.624" y="18.796" smashed="yes" rot="R270">
-<attribute name="VALUE" x="37.084" y="19.431" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="OK3" library="optocoupler" package="DIL04" value="LTV816" x="32.258" y="16.51" rot="MR90">
+<element name="R11" library="rcl" package="R0805" value="1k" x="39.624" y="18.796" smashed="yes" rot="R270"/>
+<element name="OK3" library="optocoupler" package="DIL04" value="LTV816" x="32.258" y="16.51" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="unknown" x="32.258" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="32.258" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="32.258" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="32.258" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="OK4" library="optocoupler" package="DIL04" value="LTV816" x="32.258" y="6.858" rot="MR270">
+<element name="OK4" library="optocoupler" package="DIL04" value="LTV816" x="32.258" y="6.858" smashed="yes" rot="MR270">
 <attribute name="OC_NEWARK" value="unknown" x="32.258" y="6.858" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="" x="32.258" y="6.858" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="32.258" y="6.858" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -717,8 +713,8 @@ design rules under a new name.</description>
 <contactref element="C4" pad="-"/>
 <polygon width="0.254" layer="1" isolate="0.3048">
 <vertex x="-0.762" y="28.702"/>
-<vertex x="30.48" y="28.702"/>
-<vertex x="30.48" y="-0.762"/>
+<vertex x="30.226" y="28.702"/>
+<vertex x="30.226" y="-0.762"/>
 <vertex x="-0.762" y="-0.762"/>
 </polygon>
 <contactref element="X2" pad="2"/>
