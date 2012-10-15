@@ -12069,7 +12069,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="220n"/>
 <part name="D1" library="diode" deviceset="BAT54S" device=""/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100u"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>

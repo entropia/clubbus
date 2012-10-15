@@ -3940,7 +3940,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="Q2" library="transistor-power" deviceset="IRF9530" device="" value="IRF4905"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
