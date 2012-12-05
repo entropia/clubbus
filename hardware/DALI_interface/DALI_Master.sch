@@ -12066,7 +12066,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R1206" value="5R6"/>
 <part name="AGND8" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="220n"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="D1" library="diode" deviceset="BAT54S" device=""/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
