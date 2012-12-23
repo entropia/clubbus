@@ -1,0 +1,7 @@
+Usage:
+
+ modprobe vcan
+ ip l a club type vcan
+ ip l s dev club up
+
+ dpipe ssh can@kontrollsucht.intranet.entropia.de = canpipe club
