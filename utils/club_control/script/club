@@ -1,0 +1,8 @@
+#!/usr/bin/env perl
+
+use v5.12;
+use warnings;
+
+use Entropia::EDEN::Cli;
+
+Entropia::EDEN::Cli::run(@ARGV);

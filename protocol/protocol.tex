@@ -33,7 +33,7 @@ follows:
     type: direct & destination (12bit) & source (12bit) & port (4bit) \\
     \hline
     \texttt{1} & \texttt{0} & \multicolumn{2}{|l|}{\texttt{111111111111111111111111111}} \\
-    type: event & globally assigned & \multicolumn{2}{|l|}{event ID (28 bit)} \\
+    type: event & globally assigned & \multicolumn{2}{|l|}{event ID (27 bit)} \\
     \hline
     \texttt{1} & \texttt{1} & \texttt{111111111111} &
     \texttt{111111111111111} \\
@@ -179,6 +179,29 @@ function that was called.
   
   \caption{Well-known \EDEN{} status codes}
 \label{fig:eden-codes}
+\end{figure}
+
+\section{Well-known events}
+
+The following globally assigned events are well-known:
+
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{|c|c|p{10cm}|}
+    \hline
+    ID & Data & Description \\
+    \hline
+    \texttt{1} & \texttt{CC PP} & Club-status update. Sent periodically and on
+    transitions.\newline \texttt{CC}: Current state \newline
+    \texttt{PP}: Last state \\
+    \hline
+    \texttt{2} & \texttt{DD} & The doorbell was rung. \newline
+    \texttt{DD}: \texttt{01} if the door-opener was triggered as a
+    result, \texttt{00} if not. \\
+    \hline
+  \end{tabular}
+  \caption{Well-known globally assigned \EDEN{} events}
+  \label{fig:eden-global-events}
 \end{figure}
 
 
