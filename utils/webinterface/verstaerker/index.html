@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Foo!</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="/common/css/custom-theme/jquery-ui-1.9.2.custom.css" rel="stylesheet"/>
+		<link href="/common/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="/common/css/bootstrap-responsive.css" rel="stylesheet"/>
+		<link href="css/verstaerker.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="brand" href="/">Club-o-Matik</a>
+
+				<ul class="nav">
+					<li class="active"><a href="/verstaerker/">Verst&auml;rker</a></li>
+					<li><a href="/backlight/">Backlight</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<form class="form-horizontal">
+				<div class="control-group">
+					<label class="control-label" for="power">Power</label>
+
+					<div class="controls">
+						<div class="btn-group" id="power" data-toggle="buttons-radio" data-enum-register="power">
+							<button type="button" class="btn" value="1">An</button>
+							<button type="button" class="btn" value="0">Aus</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="input">Input</label>
+					<div class="controls">
+						<div class="btn-group" id="input" data-toggle="buttons-radio" data-enum-register="input">
+							<button type="button" class="btn" value="line">v&ouml;llerei</button>
+							<button type="button" class="btn" value="tape2">Kabel</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="mute">Mute</label>
+					<div class="controls">
+						<div class="btn-group" id="mute" data-toggle="buttons-radio" data-enum-register="mute">
+							<button type="button" class="btn" value="1">muted</button>
+							<button type="button" class="btn" value="0">not muted</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="tray">Tray</label>
+					<div class="controls">
+						<div class="btn-group" id="tray" data-toggle="buttons-radio" data-enum-register="tray">
+							<button type="button" class="btn" value="1">offen</button>
+							<button type="button" class="btn" value="0">zu</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="volume">Volume</label>
+					<div class="controls">
+						<div id="volume"></div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<script src="/common/js/jquery-1.8.3.min.js"></script>
+		<script src="/common/js/jquery-ui-1.9.2.min.js"></script>
+		<script src="/common/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="/common/js/bootstrap.min.js"></script>
+		<script src="js/verstaerker.js"></script>
+	</body>
+</html>
